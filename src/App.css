@@ -1,5 +1,4 @@
 .app {
-  background: #209cee;
   padding: 30px;
   height: 100vh;
 }
@@ -11,16 +10,17 @@
   max-width: 400px;
 }
 
-.todo {
+.todo, input {
   background: #fff;
   box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
   padding: 3px 10px;
-  font-size: 12px;
+  font-size: 1.5rem;
   margin-bottom: 6px;
   border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 10px 0;
 }
 
 .input {
@@ -30,4 +30,11 @@
   box-shadow: none;
   padding: 1rem;
   height: 2.25em;
+  margin: 10px 0;
+}
+
+h2 {
+  color: white;
+  font-size: 2rem;
+  font-family: avenir, 'Times New Roman', Times, serif;
 }
