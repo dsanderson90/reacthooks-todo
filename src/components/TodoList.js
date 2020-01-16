@@ -4,18 +4,31 @@ import Todo from './Todo'
 
 
 function TodoList() {
-
+  const [categories, setCategories] = useState([
+    {
+      text: 'Learn Hooks',
+      isCompleted: false
+    },
+    {
+      text: 'Feed Cats',
+      isCompleted: false
+    },
+    {
+      text: 'Get a good nights rest',
+      isCompleted: false
+    }
+  ])
   const [todos, setTodos] = useState([
     {
       text: 'Learn Hooks',
       isCompleted: false
     },
     {
-      text: 'Learn Node',
+      text: 'Feed Cats',
       isCompleted: false
     },
     {
-      text: 'Learn ES6',
+      text: 'Get a good nights rest',
       isCompleted: false
     }
   ])
@@ -43,6 +56,7 @@ function TodoList() {
         {todos.map((todo, i) => <Todo key={i} index={i} todo={todo} completeTodo={completeTodo} removeTodo={removeTodo}/>)}
       </div>
       <TodoForm addTodo={addTodo}/>
+      {categories.map((c, index) => <div>{c}</div>)}
     </div>
   );
 }

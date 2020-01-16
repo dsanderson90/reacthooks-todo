@@ -1,7 +1,8 @@
 import React from 'react';
-import TodoList from './components/TodoList'
+// import TodoList from './components/TodoList'
+import Counter from './components/HookCounter'
 import './App.css';
 
-const App = () => <div><TodoList/></div>
+const App = () => <div><Counter/></div>
 
 export default App;
