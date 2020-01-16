@@ -4,21 +4,22 @@ class ClassCounter extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      count: 0
-     }
+      count: 0,
+    };
   }
 
   increment = () => {
     this.setState({
       count: this.state.count + 1,
-    })
-  }
+    });
+  };
   render() {
-    const { count } = {...this.state}
-    return ( <div>
-
-      <input value={count} type="button" onClick={this.increment} />
-    </div> );
+    const { count } = { ...this.state };
+    return (
+      <div>
+        <input value={count} type='button' onClick={this.increment} />
+      </div>
+    );
   }
 }
 
