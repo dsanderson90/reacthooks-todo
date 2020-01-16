@@ -11,6 +11,9 @@ const decrement = () => {
 const double = () => {
   setCount(count * 2)
 }
+const reset = () => {
+  setCount(0)
+}
   return (
     <div>
       <input
@@ -27,6 +30,11 @@ const double = () => {
         type='button'
         value='dbl'
         onClick={double}
+      />
+      <input
+        type='button'
+        value='reset'
+        onClick={reset}
       />
 
     </div>
