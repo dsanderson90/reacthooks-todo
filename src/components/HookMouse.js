@@ -11,6 +11,7 @@ const HookMouse = () => {
 
     // Clean up function
     return () => {
+      console.log('unmounting component')
       window.removeEventListener('mousemove', logMousePosition)
     }
   }, []);

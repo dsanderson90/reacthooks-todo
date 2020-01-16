@@ -1,7 +1,8 @@
 import React from 'react';
 // import TodoList from './components/TodoList'
-import MouseContainer from './components/MouseContainer'
-import './App.css';
-const App = () => <div><MouseContainer/></div>
+import IntervalHookCounter from './components/IntervalHookCounter'
+import IntervalClassCounter from './components/IntervalClassCounter'
+import './App.css'
+const App = () => <div><IntervalHookCounter/><IntervalClassCounter/></div>
 
 export default App;
