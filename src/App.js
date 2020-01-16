@@ -1,8 +1,8 @@
 import React from 'react';
 // import TodoList from './components/TodoList'
-import HookCounter3 from './components/HookCounter3'
+import ParentComponent from './components/ParentComponent'
 import './App.css';
 
-const App = () => <div><HookCounter3/></div>
+const App = () => <div><ParentComponent/></div>
 
 export default App;
