@@ -1,8 +1,7 @@
 import React from 'react';
 // import TodoList from './components/TodoList'
-import IntervalHookCounter from './components/IntervalHookCounter'
-import IntervalClassCounter from './components/IntervalClassCounter'
+import DataFetching from './components/DataFetching';
 import './App.css'
-const App = () => <div><IntervalHookCounter/><IntervalClassCounter/></div>
+const App = () => <div><DataFetching/></div>
 
 export default App;
