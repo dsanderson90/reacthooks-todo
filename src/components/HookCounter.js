@@ -9,6 +9,7 @@ const Counter = () => {
     setCount(count - 1);
   };
   const double = () => {
+    console.log(count)
     setCount(count * 2);
   };
   const reset = () => {
