@@ -1,8 +1,8 @@
 import React from 'react';
 // import TodoList from './components/TodoList'
-import UseEffect from './components/UseEffect'
+import HookMouse from './components/HookMouse'
 import './App.css';
 
-const App = () => <div><UseEffect/></div>
+const App = () => <div><HookMouse/></div>
 
 export default App;
