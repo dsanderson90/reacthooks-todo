@@ -1,10 +1,10 @@
 import React from 'react'
-import CounterOne from './components/CounterOne'
+import CounterTwo from './components/CounterTwo'
 import './App.css';
 
 const App = () => (
   <div>
-<CounterOne/>
+<CounterTwo/>
   </div>
 );
 
