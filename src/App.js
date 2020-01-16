@@ -1,8 +1,8 @@
 import React from 'react';
 // import TodoList from './components/TodoList'
-import HookCounter4 from './components/HookCounter4'
+import UseEffect from './components/UseEffect'
 import './App.css';
 
-const App = () => <div><HookCounter4/></div>
+const App = () => <div><UseEffect/></div>
 
 export default App;

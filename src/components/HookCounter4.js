@@ -9,11 +9,12 @@ const HookCounterFour = () => {
       value: Math.floor(Math.random() * 10) + 1,
     }])
   }
-
   return (
     <div>
       <button onClick={addItem}>Add a number</button>
+      <ul>
       {items.map(item => <li key={items.id}>{item.value}</li>)}
+      </ul>
     </div>
    );
 }
