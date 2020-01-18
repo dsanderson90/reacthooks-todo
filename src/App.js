@@ -1,11 +1,12 @@
-import React from 'react'
-import CounterThree from './components/CounterThree'
+import React from 'react';
 import './App.css';
+import ParentComponent from './components/ParentComponent'
 
-const App = () => (
-  <div>
-<CounterThree/>
-  </div>
-);
+const App = () => {
+
+  return (
+<ParentComponent/>
+  );
+};
 
 export default App;

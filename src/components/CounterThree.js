@@ -16,6 +16,7 @@ const reducer = (currentState, action) => {
       return currentState;
   }
 };
+
 function CounterThree() {
   const [count, dispatch] = useReducer(reducer, initState);
   const [count2, dispatch2] = useReducer(reducer, initState)
@@ -31,9 +32,6 @@ function CounterThree() {
       <button onClick={() => dispatch2('decrement')}>Decrement</button>
       <button onClick={() => dispatch2('reset')}>Reset</button>
       <button onClick={() => dispatch2('random')}>Random</button>
-
-
-
     </div>
   );
 }
